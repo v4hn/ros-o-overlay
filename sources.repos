@@ -1,4 +1,8 @@
 repositories:
+  multisense_ros:
+    type: git
+    url: https://github.com/carnegierobotics/multisense_ros
+    version: master
   jsk_common:
     type: git
     url: https://github.com/ros-o/jsk_common.git
