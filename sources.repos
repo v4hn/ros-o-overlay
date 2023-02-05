@@ -1,5 +1,5 @@
 repositories:
-  prosilica_driver:
+  urg_node:
     type: git
-    url: https://github.com/ros-o/prosilica_driver.git
+    url: https://github.com/ros-o/urg_node
     version: obese-devel
