@@ -1,5 +1,9 @@
 repositories:
-  urg_node:
+  cartographer:
     type: git
-    url: https://github.com/ros-o/urg_node
-    version: obese-devel
+    url: https://github.com/cartographer-project/cartographer
+    version: master
+  cartographer_ros:
+    type: git
+    url: https://github.com/cartographer-project/cartographer_ros
+    version: master
