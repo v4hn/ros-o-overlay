@@ -1,9 +1,5 @@
 repositories:
-  cartographer:
+  jsk_common:
     type: git
-    url: https://github.com/cartographer-project/cartographer
-    version: master
-  cartographer_ros:
-    type: git
-    url: https://github.com/cartographer-project/cartographer_ros
-    version: master
+    url: https://github.com/ros-o/jsk_common.git
+    version: obese-devel
