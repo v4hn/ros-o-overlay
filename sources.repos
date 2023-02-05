@@ -1,9 +1,9 @@
 repositories:
-  multisense_ros:
+  open_karto:
     type: git
-    url: https://github.com/carnegierobotics/multisense_ros
-    version: master
-  jsk_common:
+    url: https://github.com/ros-perception/open_karto
+    version: melodic-devel
+  sparse_bundle_adjustment:
     type: git
-    url: https://github.com/ros-o/jsk_common.git
-    version: obese-devel
+    url: https://github.com/ros-perception/sparse_bundle_adjustment
+    version: melodic-devel
