@@ -1,3 +1,6 @@
 python:
   ubuntu:
     - python3
+python-statsd:
+  ubuntu:
+    - python3-statsd

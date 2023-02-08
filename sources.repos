@@ -1,5 +1,5 @@
 repositories:
-  openni2_camera:
+  pal_statistics:
     type: git
-    url: https://github.com/ros-drivers/openni2_camera.git
-    version: ros1
+    url: https://github.com/ros-o/pal_statistics.git
+    version: obese-devel
