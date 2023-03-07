@@ -1,0 +1,17 @@
+Package: ros-one-ros-numpy
+Architecture: amd64
+Version: 0.0.5-2023.03.07.11.03
+Priority: optional
+Section: misc
+Maintainer: Eric Wieser <wieser@mit.edu>
+Installed-Size: 75
+Depends: python3-numpy, ros-one-geometry-msgs, ros-one-nav-msgs, ros-one-rospy, ros-one-sensor-msgs, ros-one-tf
+Filename: ./ros-one-ros-numpy_0.0.5-2023.03.07.11.03_amd64.deb
+Size: 17442
+MD5sum: 16b2e1355403118287c2f29ea929fb51
+SHA1: 4c3895ebe4abd755c405db93867f9897e51c43d4
+SHA256: 876f66cf39e519aee4b78673639016673f53711a034a1c2a979acab5a71d01fd
+SHA512: 1b1f4af3884edc6d1691b5834269c6a34084c14d50c9f20e92147fde0625b3b19f74d61c4f885725655d14a16a7c04984efd64ce2c07bd7479f06d38b21ccb64
+Homepage: http://wiki.ros.org/ros_numpy
+Description: A collection of conversion function for extracting numpy arrays from messages
+
