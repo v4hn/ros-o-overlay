@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 15 Feb 2023 00:00:00 -0000
+Source: ros-one-rosparam
+Binary: ros-one-rosparam
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.12.6-623-g7683aaf18-2023.11.22.16.53
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-rosparam - rosparam contains the rosparam command-line tool for getting and
+Changes:
+ ros-one-rosparam (1.12.6-623-g7683aaf18-2023.11.22.16.53) jammy; urgency=high
+Checksums-Sha1:
+ 730b80b2b08ad159d6bf33b56ec8020cd0dc9d96 7770 ros-one-rosparam_1.12.6-623-g7683aaf18-2023.11.22.16.53_amd64.buildinfo
+ b09d93d0b1ea42943e5817b8237a6160a697d77a 18696 ros-one-rosparam_1.12.6-623-g7683aaf18-2023.11.22.16.53_amd64.deb
+Checksums-Sha256:
+ dfc6adbf2b6abb5b58011cbc05b9fb8b1d0dc509a23b5050d698344379525819 7770 ros-one-rosparam_1.12.6-623-g7683aaf18-2023.11.22.16.53_amd64.buildinfo
+ 4677d314483039f720cd5de83fef3fc2e941df204eab9af248c10d9bba96656f 18696 ros-one-rosparam_1.12.6-623-g7683aaf18-2023.11.22.16.53_amd64.deb
+Files:
+ 7460e51cb204f23ee14bc9ac0033f6c0 7770 misc optional ros-one-rosparam_1.12.6-623-g7683aaf18-2023.11.22.16.53_amd64.buildinfo
+ 62e36f77e796e84a6bada098b4db7fc8 18696 misc optional ros-one-rosparam_1.12.6-623-g7683aaf18-2023.11.22.16.53_amd64.deb

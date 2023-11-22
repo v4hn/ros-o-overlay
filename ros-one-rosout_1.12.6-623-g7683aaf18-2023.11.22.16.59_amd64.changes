@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 15 Feb 2023 00:00:00 -0000
+Source: ros-one-rosout
+Binary: ros-one-rosout
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.12.6-623-g7683aaf18-2023.11.22.16.59
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-rosout - System-wide logging mechanism for messages sent to the /rosout to
+Changes:
+ ros-one-rosout (1.12.6-623-g7683aaf18-2023.11.22.16.59) jammy; urgency=high
+Checksums-Sha1:
+ d761978634f6737888c8896382cc86dbd0406924 364570 ros-one-rosout-dbgsym_1.12.6-623-g7683aaf18-2023.11.22.16.59_amd64.ddeb
+ ed4f611b4b8d7dc534c706e787d83d86eea4f403 10819 ros-one-rosout_1.12.6-623-g7683aaf18-2023.11.22.16.59_amd64.buildinfo
+ 68baf638ae74ec3b32f7be55daa5775eecfb47e4 34340 ros-one-rosout_1.12.6-623-g7683aaf18-2023.11.22.16.59_amd64.deb
+Checksums-Sha256:
+ c8d3f10cee2e6200df9eb3690dfe1e2f882248e97a2759718f8d013844a493af 364570 ros-one-rosout-dbgsym_1.12.6-623-g7683aaf18-2023.11.22.16.59_amd64.ddeb
+ d35e76f5d33d1ac5a74ee7eb2102a519e84d23c49ad2605c5e01c48cb7c5fe6a 10819 ros-one-rosout_1.12.6-623-g7683aaf18-2023.11.22.16.59_amd64.buildinfo
+ 7b951dfe65ac45672e431227a6e6c6c45167e57b5e329db716722b11f51af6ce 34340 ros-one-rosout_1.12.6-623-g7683aaf18-2023.11.22.16.59_amd64.deb
+Files:
+ c4ed8da635b137dc6a6aea4664c3b986 364570 debug optional ros-one-rosout-dbgsym_1.12.6-623-g7683aaf18-2023.11.22.16.59_amd64.ddeb
+ d9910f868e2217e40d6059b85dd16672 10819 misc optional ros-one-rosout_1.12.6-623-g7683aaf18-2023.11.22.16.59_amd64.buildinfo
+ 7c3b98f87c317c3bbd09a297d41a24cd 34340 misc optional ros-one-rosout_1.12.6-623-g7683aaf18-2023.11.22.16.59_amd64.deb

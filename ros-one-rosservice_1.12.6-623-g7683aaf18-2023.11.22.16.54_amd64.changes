@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 15 Feb 2023 00:00:00 -0000
+Source: ros-one-rosservice
+Binary: ros-one-rosservice
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.12.6-623-g7683aaf18-2023.11.22.16.54
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-rosservice - rosservice contains the rosservice command-line tool for listing
+Changes:
+ ros-one-rosservice (1.12.6-623-g7683aaf18-2023.11.22.16.54) jammy; urgency=high
+ .
+   * --noarr and --nostr option in rosservice call (#2307 <https://github.com/ros/ros_comm/issues/2307>)
+   * Contributors: Shingo Kitagawa
+Checksums-Sha1:
+ e2ad22886b062d0312df8932a449b0490de30caa 7780 ros-one-rosservice_1.12.6-623-g7683aaf18-2023.11.22.16.54_amd64.buildinfo
+ 9e7952f4d4a98609b695f34d931af46ed8c6761c 20170 ros-one-rosservice_1.12.6-623-g7683aaf18-2023.11.22.16.54_amd64.deb
+Checksums-Sha256:
+ d52ed9a5c75cf6728970713843b2ae90ba575b9d52eb278d6fa61d1a07a73451 7780 ros-one-rosservice_1.12.6-623-g7683aaf18-2023.11.22.16.54_amd64.buildinfo
+ 413635e84082c6b2a22d957bedbde1009518ae9c3881fba58c32bd8b4cac305c 20170 ros-one-rosservice_1.12.6-623-g7683aaf18-2023.11.22.16.54_amd64.deb
+Files:
+ 4d745272a8902be4a4dee7b117934210 7780 misc optional ros-one-rosservice_1.12.6-623-g7683aaf18-2023.11.22.16.54_amd64.buildinfo
+ 8f07cfe6062d18cd85c63225c7b7e81f 20170 misc optional ros-one-rosservice_1.12.6-623-g7683aaf18-2023.11.22.16.54_amd64.deb

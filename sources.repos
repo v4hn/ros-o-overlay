@@ -1,0 +1,5 @@
+repositories:
+  ros_comm:
+    type: git
+    url: https://github.com/v4hn/ros_comm.git
+    version: 7683aaf184a2648e223a5bc0199512677f11ce90

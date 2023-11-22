@@ -1,0 +1,96 @@
+ros_comm:
+  ubuntu:
+  - ros-one-ros-comm
+rosgraph:
+  ubuntu:
+  - ros-one-rosgraph
+roslaunch:
+  ubuntu:
+  - ros-one-roslaunch
+roslz4:
+  ubuntu:
+  - ros-one-roslz4
+rosmaster:
+  ubuntu:
+  - ros-one-rosmaster
+rosparam:
+  ubuntu:
+  - ros-one-rosparam
+rospy:
+  ubuntu:
+  - ros-one-rospy
+rosservice:
+  ubuntu:
+  - ros-one-rosservice
+rostest:
+  ubuntu:
+  - ros-one-rostest
+test_roslib_comm:
+  ubuntu:
+  - ros-one-test-roslib-comm
+xmlrpcpp:
+  ubuntu:
+  - ros-one-xmlrpcpp
+roscpp:
+  ubuntu:
+  - ros-one-roscpp
+rosout:
+  ubuntu:
+  - ros-one-rosout
+message_filters:
+  ubuntu:
+  - ros-one-message-filters
+rosbag_storage:
+  ubuntu:
+  - ros-one-rosbag-storage
+rosmsg:
+  ubuntu:
+  - ros-one-rosmsg
+rosnode:
+  ubuntu:
+  - ros-one-rosnode
+rostopic:
+  ubuntu:
+  - ros-one-rostopic
+test_rosbag_storage:
+  ubuntu:
+  - ros-one-test-rosbag-storage
+test_roscpp:
+  ubuntu:
+  - ros-one-test-roscpp
+test_rosgraph:
+  ubuntu:
+  - ros-one-test-rosgraph
+test_roslaunch:
+  ubuntu:
+  - ros-one-test-roslaunch
+test_rosmaster:
+  ubuntu:
+  - ros-one-test-rosmaster
+test_rosparam:
+  ubuntu:
+  - ros-one-test-rosparam
+topic_tools:
+  ubuntu:
+  - ros-one-topic-tools
+rosbag:
+  ubuntu:
+  - ros-one-rosbag
+roswtf:
+  ubuntu:
+  - ros-one-roswtf
+test_rosbag:
+  ubuntu:
+  - ros-one-test-rosbag
+test_rospy:
+  ubuntu:
+  - ros-one-test-rospy
+test_rosservice:
+  ubuntu:
+  - ros-one-test-rosservice
+test_rostest:
+  ubuntu:
+  - ros-one-test-rostest
+test_rostopic:
+  ubuntu:
+  - ros-one-test-rostopic
