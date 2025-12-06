@@ -1,9 +1,113 @@
 repositories:
-  hpp-fcl:
+  LMS1xx:
     type: git
-    url: https://github.com/humanoid-path-planner/hpp-fcl.git
-    version: devel
-  pinocchio:
+    url: https://github.com/clearpathrobotics/LMS1xx.git
+    version: noetic-devel
+  cpr_onav_description:
     type: git
-    url: https://github.com/stack-of-tasks/pinocchio.git
+    url: https://github.com/cpr-application/cpr_onav_description.git
+    version: main
+  fath_pivot_mount_description:
+    type: git
+    url: https://github.com/clearpathrobotics/fath_pivot_mount_description.git
+    version: main
+  find-object:
+    type: git
+    url: https://github.com/introlab/find-object.git
+    version: master
+  flir_camera_driver:
+    type: git
+    url: https://github.com/ros-drivers/flir_camera_driver.git
+    version: noetic-devel
+  grid_map:
+    type: git
+    url: https://github.com/ros-o/grid_map.git
+    version: obese-devel
+  gtsam:
+    type: git
+    url: https://github.com/ros-o/gtsam.git
+    version: add-missing-boost-depends
+  hector_slam:
+    type: git
+    url: https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
+    version: noetic-devel
+  hls_lfcd_lds_driver:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+    version: noetic
+  husky:
+    type: git
+    url: https://github.com/husky/husky.git
+    version: noetic-devel
+  imu_tools:
+    type: git
+    url: https://github.com/CCNYRoboticsLab/imu_tools.git
+    version: noetic
+  interactive_marker_twist_server:
+    type: git
+    url: https://github.com/ros-visualization/interactive_marker_twist_server.git
+    version: kinetic-devel
+  libg2o-release:
+    type: git
+    url: https://github.com/ros-gbp/libg2o-release.git
+    version: 55735f9e8e95a59d39e1c445af349812c987edf9
+  libnabo:
+    type: git
+    url: https://github.com/ethz-asl/libnabo.git
+    version: master
+  libpointmatcher:
+    type: git
+    url: https://github.com/norlab-ulaval/libpointmatcher.git
+    version: master
+  pointgrey_camera_driver:
+    type: git
+    url: https://github.com/ros-drivers/pointgrey_camera_driver.git
+    version: noetic-devel
+  robot_localization:
+    type: git
+    url: https://github.com/cra-ros-pkg/robot_localization.git
+    version: noetic-devel
+  rosserial:
+    type: git
+    url: https://github.com/ros-drivers/rosserial.git
+    version: noetic-devel
+  rtabmap:
+    type: git
+    url: https://github.com/v4hn/rtabmap.git
+    version: gtsam-4.3
+  rtabmap_ros:
+    type: git
+    url: https://github.com/ros-o/rtabmap_ros.git
+    version: obese-devel
+  teleop_twist_joy:
+    type: git
+    url: https://github.com/ros-teleop/teleop_twist_joy.git
+    version: indigo-devel
+  turtlebot3:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/turtlebot3.git
+    version: noetic
+  turtlebot3_msgs:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+    version: noetic
+  turtlebot3_simulations:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+    version: noetic
+  twist_mux:
+    type: git
+    url: https://github.com/ros-teleop/twist_mux.git
+    version: noetic-devel
+  twist_mux_msgs:
+    type: git
+    url: https://github.com/ros-teleop/twist_mux_msgs.git
+    version: melodic-devel
+  velodyne:
+    type: git
+    url: https://github.com/ros-drivers/velodyne.git
+    version: master
+  velodyne_simulator:
+    type: git
+    url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
     version: master
