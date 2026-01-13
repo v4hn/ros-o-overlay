@@ -1,0 +1,18 @@
+jrl_cmakemodules:
+  debian:
+  - ros-one-jrl-cmakemodules
+eigenpy:
+  debian:
+  - ros-one-eigenpy
+hpp-fcl:
+  debian:
+  - ros-one-hpp-fcl
+urdfdom_headers:
+  debian:
+  - ros-one-urdfdom-headers
+urdfdom:
+  debian:
+  - ros-one-urdfdom
+pinocchio:
+  debian:
+  - ros-one-pinocchio

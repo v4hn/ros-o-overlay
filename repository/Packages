@@ -1,0 +1,138 @@
+Package: ros-one-eigenpy
+Architecture: amd64
+Version: 3.12.0-110-gf53e616-2026.01.13.12.27
+Priority: optional
+Section: misc
+Maintainer: Justin Carpentier <justin.carpentier@inria.fr>
+Installed-Size: 19946
+Depends: libboost-python1.74.0 (>= 1.74.0+ds1), libboost-python1.74.0-py311, libc6 (>= 2.32), libgcc-s1 (>= 4.0), libstdc++6 (>= 5.2), libboost-all-dev, libeigen3-dev, python3-dev, python3-numpy, python3-scipy
+Filename: ./ros-one-eigenpy_3.12.0-110-gf53e616-2026.01.13.12.27_amd64.deb
+Size: 2780384
+MD5sum: b4d052fbd23d2127ebd85142b572b2f1
+SHA1: 18da560194073e819c5e1ce0a6ca2861abd021e4
+SHA256: 3e2da1af697db331b0deb23acd979c89d856efe7699d69a1957acfee4a97e36c
+SHA512: 553138aee44ad6c7e2ce88df3d044dd17adf2b7c41c313a70a332892d5cdc060e2901dd1df94b2a3a1e3ec915afcb55c41b859d64564fbc7c98c36f0ad14da19
+Homepage: https://github.com/stack-of-tasks/eigenpy
+Description: Bindings between Numpy and Eigen using Boost.Python
+
+Package: ros-one-hpp-fcl-dbgsym
+Architecture: amd64
+Version: 2.4.5-2026.01.13.12.48
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-hpp-fcl
+Maintainer: Joseph Mirabel <jmirabel@laas.fr>
+Installed-Size: 59208
+Depends: ros-one-hpp-fcl (= 2.4.5-2026.01.13.12.48)
+Filename: ./ros-one-hpp-fcl-dbgsym_2.4.5-2026.01.13.12.48_amd64.deb
+Size: 56346824
+MD5sum: b37a7703d9c8b77a1569a86050153d79
+SHA1: 87e6809a7729ac94aa1a3c705dd0515a53b3214f
+SHA256: 7065ad1729b3f0cb6d9a5eaddd9eb46dd1d3c6c2d453808bd4ef5eea8dc9f6fb
+SHA512: f53140679ca6295af933913ccd47b27f6f972afdea90f0a291c64cb40201726a3f6a833d400d6690021f0c3a45bf57e0f77f5a7c023f82787b9ae4909e8dc1e8
+Description: debug symbols for ros-one-hpp-fcl
+Build-Ids: 4e2ce6cf354ad0e52174a780fcb452e061e0d769 66bec2a027f702a351713f84e1fc1146ea394f9e
+
+Package: ros-one-hpp-fcl
+Architecture: amd64
+Version: 2.4.5-2026.01.13.12.48
+Priority: optional
+Section: misc
+Maintainer: Joseph Mirabel <jmirabel@laas.fr>
+Installed-Size: 8514
+Depends: libassimp5 (>= 5.2.5~ds0), libboost-filesystem1.74.0 (>= 1.74.0+ds1), libboost-python1.74.0 (>= 1.74.0+ds1), libboost-python1.74.0-py311, libboost-serialization1.74.0 (>= 1.74.0+ds1), libc6 (>= 2.32), libgcc-s1 (>= 3.0), liboctomap1.9 (>= 1.9.7+dfsg), libstdc++6 (>= 11), catkin, libassimp-dev, libboost-all-dev, libeigen3-dev, libgmock-dev, libgtest-dev, liboctomap-dev, python3-dev, python3-numpy, ros-one-eigenpy
+Filename: ./ros-one-hpp-fcl_2.4.5-2026.01.13.12.48_amd64.deb
+Size: 1209044
+MD5sum: 52bd03966b290a4d15c6946f76ff3fd3
+SHA1: 8291ca7a55654bf1bcf6b90e7d33aabc87211384
+SHA256: 771a1038189239e66f5747cbec7c7ba828365526137966d71daf2454e9ba8715
+SHA512: 107061b036ce5a4caefc8f5e3e604cbfcd3d462720dcceff6326c98ad2f51594cac29d59fd58f21372f0266aa9b0e0f1703684033fe2b573162bc1285715c5b7
+Homepage: https://github.com/humanoid-path-planner/hpp-fcl
+Description: An extension of the Flexible Collision Library.
+
+Package: ros-one-jrl-cmakemodules
+Architecture: amd64
+Version: 1.1.2-20-g51304f9-2026.01.13.12.26
+Priority: optional
+Section: misc
+Maintainer: Guilhem Saurel <guilhem.saurel@laas.fr>
+Installed-Size: 25001
+Depends: doxygen, pkg-config
+Filename: ./ros-one-jrl-cmakemodules_1.1.2-20-g51304f9-2026.01.13.12.26_amd64.deb
+Size: 2169272
+MD5sum: b346ef3b6c6d2953d2a3a8f802ce19cb
+SHA1: da50f185cec06ad8d96d2f28abd5d6b5fb7620c7
+SHA256: 07f087d5cab5936281c6bd5a68a1caf571751bf1e828a6aa076307948d594b66
+SHA512: 02426d7c0ba5fd0e2c59a4b5b0383a47797e24b1e5567551a984648caaa7d81982a84fdc4ade8d278cfdf33f074a831231fadba295fb2fa9953b126af5483e24
+Homepage: https://github.com/jrl-umi3218/jrl-cmakemodules
+Description: CMake utility toolbox
+
+Package: ros-one-pinocchio
+Architecture: amd64
+Version: 0-2026.01.13.12.55
+Priority: optional
+Section: misc
+Maintainer: Justin Carpentier <justin.carpentier@inria.fr>
+Installed-Size: 23072
+Depends: libboost-filesystem1.74.0 (>= 1.74.0+ds1), libboost-python1.74.0 (>= 1.74.0+ds1), libboost-python1.74.0-py311, libboost-serialization1.74.0 (>= 1.74.0+ds1), libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.0), libpython3.11 (>= 3.11.0), libstdc++6 (>= 11), ros-one-urdfdom, libboost-all-dev, libeigen3-dev, python3-dev, python3-numpy, ros-one-eigenpy, ros-one-hpp-fcl, ros-one-ros-environment
+Filename: ./ros-one-pinocchio_0-2026.01.13.12.55_amd64.deb
+Size: 3977104
+MD5sum: 0d8fc4d38b2d80d8a86e4a6cd216b367
+SHA1: 0c4acf8b5ed59e78f3a90d14a187d9f507ac6304
+SHA256: 06a905ce494997118497d95c32e1b73726140de3010232be1fb26880f65377d4
+SHA512: 0c3f3c30418fb7d86333c375f97598f711f93d824394cb6b13c0a5d3b3dc2ecf999644d2c359834f5bfc5a975c8ca4feb815db21af55f382a6a39a31554e9c82
+Homepage: https://github.com/stack-of-tasks/pinocchio
+Description: A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives.
+
+Package: ros-one-urdfdom-dbgsym
+Architecture: amd64
+Version: 5.0.4-2-g4caee7c-2026.01.13.12.54
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-urdfdom
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 2026
+Depends: ros-one-urdfdom (= 5.0.4-2-g4caee7c-2026.01.13.12.54)
+Filename: ./ros-one-urdfdom-dbgsym_5.0.4-2-g4caee7c-2026.01.13.12.54_amd64.deb
+Size: 1280072
+MD5sum: 4a4a8e2d4c34eeb782ec4f46771d6add
+SHA1: 6e10f5ad543da21d11959f1193dd32fcabeb102a
+SHA256: 39602b4fc38317f2d4bceaa4031f5e8bd426ac0a762c2db2d494ec049008bc9d
+SHA512: b947ed7c8795934a6a04006983e0c22c28f7faa2bbfb7a17757b4e97703bb2d5d1127c1cbe0ec4b1b3801e64c0a2fe4ce775eddb0c6b8e34ce04f17f91cf2cab
+Description: debug symbols for ros-one-urdfdom
+Build-Ids: 198ea8fa07c85937db8a54356842d2e76e175f46 cc5d7063d230086384d4c03b738d1fda90c6cbb6 dd9332b5618d3612112012d4dd2c5c73756c6fcf ded9834512b0e00522209cdebaf59a0fdc2652d4 e70c9ba9a1e6df391910bde7c8b5e7f157bd875a f876b6d94d561481676bd285547dbb7100372fe9
+
+Package: ros-one-urdfdom-headers
+Architecture: amd64
+Version: 2.0.2-2026.01.13.12.53
+Priority: optional
+Section: misc
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Installed-Size: 92
+Filename: ./ros-one-urdfdom-headers_2.0.2-2026.01.13.12.53_amd64.deb
+Size: 12652
+MD5sum: 92d7aefc83257b10f1f978d201776854
+SHA1: e4073501e40d3f4c31e7c9a15026daa6b5eaf22e
+SHA256: 7e073fd789e4c2a80fc5779f07fb9d40a8a6fab04a50c61181b31d75490b4be3
+SHA512: 2a89279a2d1c72301dc087d35ad14f557833b306a14257fdd6cf8573e57f3c2047914899a976ce5c5365b905b56738d38e50cf92fcfc4d521af0c2d1d3eb361c
+Homepage: http://ros.org/wiki/urdf
+Description: C++ headers for URDF.
+
+Package: ros-one-urdfdom
+Architecture: amd64
+Version: 5.0.4-2-g4caee7c-2026.01.13.12.54
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 418
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libtinyxml2-9 (>= 8.1.0+really8.1.0), libconsole-bridge-dev, librosconsole-bridge-dev, libtinyxml2-dev, ros-one-urdfdom-headers (>= 0.2.3)
+Filename: ./ros-one-urdfdom_5.0.4-2-g4caee7c-2026.01.13.12.54_amd64.deb
+Size: 68948
+MD5sum: e31821e98ff648ee0595b8e2903375aa
+SHA1: 7b9378cdfe0bc6d0fbe9bd21d8db2c70e69ef2eb
+SHA256: 70ce787af33236c7b6dc1d011c5626ffd5d573e6549f089143b34aa15e838a0d
+SHA512: 5294dbfb2582af193ac66f569690198f54173dbffd957e442b0b5ead123719960002564e72c5f2be260c1fe3b033a1ab1c203400b9b34f71eeafbf83376bdb65
+Description: A library to access URDFs using the DOM model.
+

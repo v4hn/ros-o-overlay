@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Mon, 08 Dec 2025 00:00:00 -0000
+Source: ros-one-urdfdom
+Binary: ros-one-urdfdom ros-one-urdfdom-dbgsym
+Architecture: amd64
+Version: 5.0.4-2-g4caee7c-2026.01.13.12.54
+Distribution: bookworm
+Urgency: high
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Changed-By: Chris Lalancette <clalancette@openrobotics.org>
+Description:
+ ros-one-urdfdom - A library to access URDFs using the DOM model.
+Changes:
+ ros-one-urdfdom (5.0.4-2-g4caee7c-2026.01.13.12.54) bookworm; urgency=high
+ .
+   * Revert "Quaternion in urdf (PR123 new attempt) (#231)" (#231 <https://github.com/ros/urdfdom/issues/231>)
+   * Contributors: Steve Peters
+Checksums-Sha1:
+ 6e10f5ad543da21d11959f1193dd32fcabeb102a 1280072 ros-one-urdfdom-dbgsym_5.0.4-2-g4caee7c-2026.01.13.12.54_amd64.deb
+ 65c55e040bcf6b171b59a62c086e0e713a37a14f 9077 ros-one-urdfdom_5.0.4-2-g4caee7c-2026.01.13.12.54_amd64.buildinfo
+ 7b9378cdfe0bc6d0fbe9bd21d8db2c70e69ef2eb 68948 ros-one-urdfdom_5.0.4-2-g4caee7c-2026.01.13.12.54_amd64.deb
+Checksums-Sha256:
+ 39602b4fc38317f2d4bceaa4031f5e8bd426ac0a762c2db2d494ec049008bc9d 1280072 ros-one-urdfdom-dbgsym_5.0.4-2-g4caee7c-2026.01.13.12.54_amd64.deb
+ 375af8336a00dba7bcd835829742d63cb2511fcec678cf8eb137d767b5bbde59 9077 ros-one-urdfdom_5.0.4-2-g4caee7c-2026.01.13.12.54_amd64.buildinfo
+ 70ce787af33236c7b6dc1d011c5626ffd5d573e6549f089143b34aa15e838a0d 68948 ros-one-urdfdom_5.0.4-2-g4caee7c-2026.01.13.12.54_amd64.deb
+Files:
+ 4a4a8e2d4c34eeb782ec4f46771d6add 1280072 debug optional ros-one-urdfdom-dbgsym_5.0.4-2-g4caee7c-2026.01.13.12.54_amd64.deb
+ 0c81a2428556fa3a009d680dee620a9d 9077 misc optional ros-one-urdfdom_5.0.4-2-g4caee7c-2026.01.13.12.54_amd64.buildinfo
+ e31821e98ff648ee0595b8e2903375aa 68948 misc optional ros-one-urdfdom_5.0.4-2-g4caee7c-2026.01.13.12.54_amd64.deb

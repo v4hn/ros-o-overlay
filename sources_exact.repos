@@ -1,0 +1,25 @@
+repositories:
+  eigenpy:
+    type: git
+    url: https://github.com/stack-of-tasks/eigenpy.git
+    version: f53e61677fffa92578ace2bd2269f4707ab5ff60
+  hpp-fcl:
+    type: git
+    url: https://github.com/humanoid-path-planner/hpp-fcl.git
+    version: b52c10bb423b7b682a1c2c4ae037cda6bcf390ce
+  jrl_cmakemodules:
+    type: git
+    url: https://github.com/jrl-umi3218/jrl-cmakemodules.git
+    version: 51304f9d08e110533d8f018c2afbb905b62760b8
+  pinocchio:
+    type: git
+    url: https://github.com/v4hn/pinocchio.git
+    version: aebd07ac885422afb707813e8dd405fca04bda0d
+  urdfdom:
+    type: git
+    url: https://github.com/ros/urdfdom.git
+    version: 4caee7c75cb65086d4d8f0d39a7e67218eae4d3b
+  urdfdom_headers:
+    type: git
+    url: https://github.com/ros/urdfdom_headers.git
+    version: 2.0.2
