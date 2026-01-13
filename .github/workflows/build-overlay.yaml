@@ -10,7 +10,7 @@ jobs:
     env:
       ROS_DISTRO: one
       DEB_DISTRO: bookworm
-      UPSTREAM: https://raw.githubusercontent.com/v4hn/ros-o-builder/bookworm-one/repository
+      UPSTREAM: https://raw.githubusercontent.com/v4hn/ros-o-builder/bookworm-one-unstable/repository
     steps:
       - uses: v4hn/ros-deb-builder-action@roso-noble
         with:
@@ -23,7 +23,9 @@ jobs:
             ${{ env.UPSTREAM }}/local.yaml
           DEB_REPOSITORY: |
             deb [trusted=yes] ${{ env.UPSTREAM }} ./
-          SBUILD_CONF: "$enable_network = 1;"
+          SBUILD_CONF: |
+            $enable_network = 1;
+            $dpkg_buildpackage_user_options = ['--jobs=3'];
           CONTINUE_ON_ERROR: true
           PUSH_ON_ERROR: true
           SQUASH_HISTORY: true
